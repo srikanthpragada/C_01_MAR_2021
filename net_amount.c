@@ -14,8 +14,10 @@ void main ()
    net_price = discounted_price + tax;
 
    printf("Price             : %6d\n", price);
-   printf("- Discount     : %6d\n", discount);
-   printf("                     : %6d\n", discounted_price);
-   printf("+Tax             : %6d\n", tax);
-   printf("Net Price       : %6d\n", net_price);
+   printf("- Discount        : %6d\n", discount);
+   printf("                    ------\n");
+   printf("                  : %6d\n", discounted_price);
+   printf("+Tax              : %6d\n", tax);
+   printf("                    ------\n");
+   printf("Net Price         : %6d\n", net_price);
 }
