@@ -1,13 +1,14 @@
 #include<stdio.h>
- void main()
- {
+void main()
+{
    int i, num;
 
     printf("Please enter the number : ");
     scanf("%d",&num);
 
-    for(i = 1; i <= 10; i ++)
+    for(i = 2; i <= num/2; i ++)
     {
-      printf("%2d * %2d = %3d", num,i, num*i);
+     if(num % i == 0)
+         printf("%d ",i);
     }
  }

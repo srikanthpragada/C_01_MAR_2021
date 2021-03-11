@@ -8,6 +8,6 @@
 
     for(i = 1; i <= 10; i ++)
     {
-      printf("%2d * %2d = %3d", num,i, num*i);
+      printf("%2d * %2d = %3d\n", num,i, num*i);
     }
  }
